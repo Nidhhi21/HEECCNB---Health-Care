@@ -24,7 +24,7 @@ def decrypt(enc_data):
 # -------------------- Firebase Initialization --------------------
 def init_firebase():
     try:
-        cred = credentials.Certificate("serviceAccountKey.json")
+        cred = credentials.Certificate("place your key in json format ")
         firebase_admin.initialize_app(cred, {
             'databaseURL': 'https://heeccnb-health-care-default-rtdb.asia-southeast1.firebasedatabase.app/'
         })
