@@ -26,7 +26,7 @@ def init_firebase():
     try:
         cred = credentials.Certificate("place your key in json format ")
         firebase_admin.initialize_app(cred, {
-            'databaseURL': 'https://heeccnb-health-care-default-rtdb.asia-southeast1.firebasedatabase.app/'
+            'databaseURL': 'place your cloud url'
         })
         return True
     except Exception as e:
