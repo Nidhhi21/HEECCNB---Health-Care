@@ -1,0 +1,11 @@
+temperature,bpm,spo2,disease
+98.6,75,97,Healthy
+101.2,88,95,Fever
+97.5,72,99,Healthy
+99.4,100,92,Pneumonia
+100.5,85,96,Fever
+96.8,70,98,Healthy
+102.3,110,90,Pneumonia
+98.0,77,97,Healthy
+99.1,82,95,Fever
+100.0,90,93,Pneumonia
